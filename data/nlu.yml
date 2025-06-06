@@ -1,0 +1,19 @@
+version: "3.1"
+nlu:
+- intent: ask_exam_schedule
+  examples: |
+    - When is my math exam?
+    - What's the exam date for physics?
+    - Tell me exam schedule
+
+- intent: ask_fee_status
+  examples: |
+    - Did I pay my fees?
+    - What is my fee status?
+    - How much do I owe?
+
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey

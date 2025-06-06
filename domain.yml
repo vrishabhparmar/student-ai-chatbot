@@ -1,0 +1,15 @@
+version: "3.1"
+intents:
+  - ask_exam_schedule
+  - ask_fee_status
+  - greet
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I help you today?"
+
+  utter_ask_exam_schedule:
+    - text: "Your math exam is on 15th June at 10 AM."
+
+  utter_ask_fee_status:
+    - text: "You have no pending fees. You're all clear!"
